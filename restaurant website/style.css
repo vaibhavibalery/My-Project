@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+	margin:0;
+	padding:0;
+}
+#navbar{
+    background-color: #811e1e;
+    font-family: 'Yeon Sung', cursive;
+    font-size: 24px;
+    padding:10px;
+    margin:0 auto;
+    box-sizing: border-box;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 20px 30px;
+    color:cyan;
+}
+#navbar li a:hover{
+    color: blue;  
+}
+h1{
+	color:indianred;
+	font-size: 40px;
+	text-align: center;
+}
+body{
+font-size:1.2em;
+font-family:calibri;
+background-color: burlywood;
+
+}
+
+h2{
+font-size:1.4em;
+text-align: center;
+font-family: 'Yeon Sung', cursive;
+color:red;
+}
+.container{
+	background: center/cover no-repeat url("img1.jpg") ;
+	
+	height:400px;
+	margin:15px auto;
+	width: 1200px;
+	
+}
+h3{
+	color:grey;
+	font-size: 40px;
+	text-align: center;
+}
+h4{
+	margin:10px 10px;
+	color:darkgreen;
+	font-size: 25px;
+}
+p{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color:whitesmoke;
+	font-size: 40px;
+	margin: 5px;
+	padding:8px;
+	font-family: 'Dancing Script', cursive;
+	
+}
+.container1{
+	background: center/cover no-repeat url("img2.jpg") ;
+	width:1200px;
+	height:400px;
+	margin:15px auto;
+	
+}
+.container2{
+	background: center/cover no-repeat url("img3.jpg") ;
+	
+	height:400px;
+	margin:15px auto;
+	width:1200px;
+	
+}
+.container3{
+	background: center/cover no-repeat url("img4.jpg") ;
+	width:1200px;
+	height:400px;
+	margin:15px auto;
+	
+}
+.container4{
+	background: center/cover no-repeat url("img5.jpg") ;
+	width:1200px;
+	height:400px;
+	margin:15px auto;
+	
+}
+label{
+	margin:10px 10px;
+	padding:5px;
+}
+
+
+
+input,text{
+width:700px;
+height:25px;
+padding:23px;
+margin:5px 15px;
+border:2px solid rgb(75, 33, 33);
+}
+	
+#form{
+ padding:10px;
+ margin:0 auto;
+ border-radius:1.5em;
+ 
+}
+ 
+ 
+
+#cuisinebutton{
+	display: flex;
+    flex-direction: row;
+	
+	
+}
+#cuisine{
+     width:200px;
+     height:100px;
+     margin:15px;
+
+}
+
+button{
+   color:black;
+   background-color:orange;
+   
+}
+
+#price{
+    width:220px;
+    height:100px;
+	margin:10px ;
+}
+
+#footer{
+    color:coral;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+    padding-top:18px;
+    margin:5px auto;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+}
+
